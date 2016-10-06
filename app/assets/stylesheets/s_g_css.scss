@@ -8,14 +8,14 @@
 #wrapp {
 	height: 460px;
 	width: 80%;
-	border: 1px solid silver;
+	
 	margin: 50px auto;
 	padding: 20px;
 }
 #border1{
 	height: 211px;
 	width: 740px;
-	border: 2px solid white;
+	
 	float: left;
 	margin-bottom: 20pxl
 	
@@ -23,7 +23,7 @@
 #border4{
 	height: 211px;
 	width: 740px;
-	border: 2px solid white;
+	
 	float: left;
 	margin-top: 30px;
 	
@@ -32,7 +32,7 @@
 #border2{
 	height: 211px;
 	width: 740px;
-	border: 2px solid white;
+	
 	float: left;
 	
 	margin-top: 30px;
@@ -41,7 +41,7 @@
 #border3{
 	height: 211px;
 	width: 740px;
-	border: 2px solid white;
+	
 	float: left;
 	
 }
@@ -49,16 +49,19 @@
 .thumb {
 	height: 210px;
 	width: 210px;
-	border: 1px solid red;
-	border-radius: 10px;
+	border: 3px solid rgb(234, 39, 39);;
+	border-radius: 50px 50px;
 	margin-left: 15px;
 	margin-bottom: 20px;
 	float: left;
 	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-style: italic;
 }
 
 .thumb p{
-	font-size: 1.9em;
+	font-size: 1.5em;
 	margin-top: 130px;
 }
 
@@ -66,56 +69,60 @@
 	font-size: 1.2em;
 }
 
+.kais{
+	border-radius: 30px 30px;
+}
+
 #slika1{
-	background-image: url("slika1.jpg");
+	background-image: url(asset-path('velika.jpg'));
 	margin-bottom: 20px;
 }
 #slika2
 {
-	background-image: url(asset-path('slika2.jpg'));
+	background-image: url(asset-path('gurmanska.jpg'));
 	margin-bottom: 20px;
 }
 #slika3
 {
-	background-image: url(asset-path('slika2.jpg'));
+	background-image: url(asset-path('punjena.jpg'));
 	margin-bottom: 20px;
 }
 #slika4
 {
-	background-image: url(asset-path('slika3.jpg'));
+	background-image: url(asset-path('slatke-palacinke.jpg'));
 	margin-left: 60px;
 }
 #slika5
 {
-	background-image: url(asset-path('slika4.png'));
+	background-image: url(asset-path('slane.jpg'));
 }
 #slika6
 {
-	background-image: url(asset-path('slika5.jpg'));
+	background-image: url(asset-path('ultra.jpg'));
 }
 #slika7
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('super.jpg'));
 }
 #slika8
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('capricoza.jpg'));
 }
 #slika9
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('margarita.jpg'));
 
 }
 #slika10
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('hotdog.jpg'));
 	margin-left: 60px;
 }
 #slika11
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('hotdog.jpg'));
 }
 #slika12
 {
-	background-image: url(asset-path('slika6.jpg'));
+	background-image: url(asset-path('hotdog.jpg'));
 }
