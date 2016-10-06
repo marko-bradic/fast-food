@@ -1,0 +1,121 @@
+*{margin: 0; padding: 0;}
+.clr {
+	clear: both;
+}
+
+
+
+#wrapp {
+	height: 460px;
+	width: 80%;
+	border: 1px solid silver;
+	margin: 50px auto;
+	padding: 20px;
+}
+#border1{
+	height: 211px;
+	width: 740px;
+	border: 2px solid white;
+	float: left;
+	margin-bottom: 20pxl
+	
+}
+#border4{
+	height: 211px;
+	width: 740px;
+	border: 2px solid white;
+	float: left;
+	margin-top: 30px;
+	
+}
+
+#border2{
+	height: 211px;
+	width: 740px;
+	border: 2px solid white;
+	float: left;
+	
+	margin-top: 30px;
+}
+	
+#border3{
+	height: 211px;
+	width: 740px;
+	border: 2px solid white;
+	float: left;
+	
+}
+
+.thumb {
+	height: 210px;
+	width: 210px;
+	border: 1px solid red;
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+}
+
+.thumb p{
+	font-size: 1.9em;
+	margin-top: 130px;
+}
+
+.thumb p span{
+	font-size: 1.2em;
+}
+
+#slika1{
+	background-image: url("slika1.jpg");
+	margin-bottom: 20px;
+}
+#slika2
+{
+	background-image: url(asset-path('slika2.jpg'));
+	margin-bottom: 20px;
+}
+#slika3
+{
+	background-image: url(asset-path('slika2.jpg'));
+	margin-bottom: 20px;
+}
+#slika4
+{
+	background-image: url(asset-path('slika3.jpg'));
+	margin-left: 60px;
+}
+#slika5
+{
+	background-image: url(asset-path('slika4.png'));
+}
+#slika6
+{
+	background-image: url(asset-path('slika5.jpg'));
+}
+#slika7
+{
+	background-image: url(asset-path('slika6.jpg'));
+}
+#slika8
+{
+	background-image: url(asset-path('slika6.jpg'));
+}
+#slika9
+{
+	background-image: url(asset-path('slika6.jpg'));
+
+}
+#slika10
+{
+	background-image: url(asset-path('slika6.jpg'));
+	margin-left: 60px;
+}
+#slika11
+{
+	background-image: url(asset-path('slika6.jpg'));
+}
+#slika12
+{
+	background-image: url(asset-path('slika6.jpg'));
+}
