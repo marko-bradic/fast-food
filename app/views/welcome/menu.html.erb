@@ -1,2 +1,19 @@
 <h1>Menu</h1>
-<p>Find me in app/views/menu/about.html.erb</p>
+<br>
+<br>
+
+<h3>PLJESKAVICE</h3>
+<br>
+<% @svi_burgeri.each do |jedan_pojedinacan_proizvod|	%>
+<p><%= jedan_pojedinacan_proizvod.naziv %>............................<%= jedan_pojedinacan_proizvod.cena %></p>
+<% end %>
+
+<br>
+<br>
+
+
+<h3>PALACINKE</h3>
+<br>
+<% @svi_palacinci.each do |jedan_pojedinacan_proizvod|	%>
+<p><%= jedan_pojedinacan_proizvod.naziv %>............................<%= jedan_pojedinacan_proizvod.cena %></p>
+<% end %>

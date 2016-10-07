@@ -3,6 +3,9 @@ class WelcomeController < ApplicationController
   end
 
   def menu
+    @svi_burgeri  = Burger.all
+    @svi_palacinci  = Pancake.all
+
   end
 
   def gallery
